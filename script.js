@@ -1,6 +1,4 @@
-// console.log("Hi")
 let ans = document.querySelectorAll(".answer")
-// console.log(ans)
 ans.forEach((ele,index)=>{
     ele.addEventListener("click",()=>{
         ele.nextElementSibling.classList.toggle("h-[auto]")
